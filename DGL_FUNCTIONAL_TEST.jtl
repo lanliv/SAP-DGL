@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="6301" it="0" lt="6233" ct="1183" ts="1515766788268" s="true" lb="LOGIN" rc="200" rm="OK" tn="FUNCTIONAL TEST 1-1" dt="text" by="1135" sby="1069" sc="1" ec="0" ng="1" na="1" hn="ECSD00100EE9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="6233" it="0" lt="6233" ct="1183" ts="1515766788268" s="true" lb="https://mac-hatest.sap-supp.projects.epam.com/mac/login?rdrp=%2Fauth%2FisLoginSuccess.htm" rc="302" rm="Found" tn="FUNCTIONAL TEST 1-1" dt="" by="331" sby="549" sc="1" ec="0" ng="1" na="1" hn="ECSD00100EE9">
+    <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">username=Admin1&amp;password=Initial1&amp;isAjax=true</queryString>
+    <redirectLocation class="java.lang.String">https://mac-hatest.sap-supp.projects.epam.com/mac/auth/isLoginSuccess.htm</redirectLocation>
+    <java.net.URL>https://mac-hatest.sap-supp.projects.epam.com/mac/login?rdrp=%2Fauth%2FisLoginSuccess.htm</java.net.URL>
+  </httpSample>
+  <httpSample t="62" it="0" lt="60" ct="42" ts="1515766794507" s="true" lb="https://mac-hatest.sap-supp.projects.epam.com/mac/auth/isLoginSuccess.htm" rc="200" rm="OK" tn="FUNCTIONAL TEST 1-1" dt="text" by="804" sby="520" sc="1" ec="0" ng="1" na="1" hn="ECSD00100EE9">
+    <responseData class="java.lang.String">{&quot;authenticated&quot;:true}</responseData>
+    <cookies class="java.lang.String">dglssnid=A~A98E4B8EBECF30AB37A6A22BB2CE4462</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>https://mac-hatest.sap-supp.projects.epam.com/mac/auth/isLoginSuccess.htm</java.net.URL>
+  </httpSample>
+  <responseData class="java.lang.String">{&quot;authenticated&quot;:true}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://mac-hatest.sap-supp.projects.epam.com/mac/auth/isLoginSuccess.htm</redirectLocation>
+  <java.net.URL>https://mac-hatest.sap-supp.projects.epam.com/mac/auth/isLoginSuccess.htm</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="26" ct="0" ts="1515766794819" s="true" lb="LOGOUT" rc="200" rm="OK" tn="FUNCTIONAL TEST 1-1" dt="text" by="3528" sby="1060" sc="1" ec="0" ng="1" na="1" hn="ECSD00100EE9">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="26" it="0" lt="26" ct="0" ts="1515766794819" s="true" lb="https://mac-hatest.sap-supp.projects.epam.com/mac/auth/logout.htm" rc="302" rm="Found" tn="FUNCTIONAL TEST 1-1" dt="" by="851" sby="563" sc="1" ec="0" ng="1" na="1" hn="ECSD00100EE9">
+    <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+    <cookies class="java.lang.String">dglssnid=A~A98E4B8EBECF30AB37A6A22BB2CE4462</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <redirectLocation class="java.lang.String">https://mac-hatest.sap-supp.projects.epam.com/mac/spa/login.html</redirectLocation>
+    <java.net.URL>https://mac-hatest.sap-supp.projects.epam.com/mac/auth/logout.htm</java.net.URL>
+  </httpSample>
+  <httpSample t="28" it="0" lt="27" ct="0" ts="1515766794846" s="true" lb="https://mac-hatest.sap-supp.projects.epam.com/mac/spa/login.html" rc="200" rm="OK" tn="FUNCTIONAL TEST 1-1" dt="text" by="2677" sby="497" sc="1" ec="0" ng="1" na="1" hn="ECSD00100EE9">
+    <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html class=&apos;public-html&apos;&gt;
+&lt;!--@login_page, session expiration mark - do not remove!--&gt;
+    &lt;head&gt;
+        &lt;meta charset=&apos;utf-8&apos;&gt;
+        &lt;title&gt;Digital Library&lt;/title&gt;
+        &lt;meta name=&apos;description&apos; content=&apos;&apos;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+        &lt;meta property=&quot;fb:app_id&quot; content=&quot;979362175445128&quot; /&gt;
+
+        &lt;meta http-equiv=&quot;cache-control&quot; content=&quot;max-age=0&quot; /&gt;
+        &lt;meta http-equiv=&quot;cache-control&quot; content=&quot;no-cache&quot; /&gt;
+        &lt;meta http-equiv=&quot;expires&quot; content=&quot;0&quot; /&gt;
+        &lt;meta http-equiv=&quot;expires&quot; content=&quot;Tue, 01 Jan 1980 1:00:00 GMT&quot; /&gt;
+        &lt;meta http-equiv=&quot;pragma&quot; content=&quot;no-cache&quot; /&gt;
+
+        &lt;!-- Place favicon.ico and apple-touch-icon.png in the root directory --&gt;
+        &lt;!--  TODO: add as font-face in sass  --&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css&quot;&gt;
+        &lt;link rel=&apos;stylesheet&apos; href=&apos;styles/main.css&apos;&gt;
+        &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://dam.sap.com/mac/favicon.ico?v=3&quot; /&gt;
+
+        &lt;script type=&quot;application/javascript&quot; src=&quot;scripts/public/lib/dynamic-props.js&quot;&gt;&lt;/script&gt;
+        &lt;script type=&quot;application/javascript&quot; src=&quot;scripts/public/lib/jquery-2.1.4.min.js&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;!--[if lt IE 10]&gt;
+        &lt;p class=&apos;browsehappy&apos;&gt;You are using an &lt;strong&gt;outdated&lt;/strong&gt; browser. Please upgrade your browser to improve your experience.&lt;/p&gt;
+        &lt;![endif]--&gt;
+
+
+        &lt;!-- Entry point for React --&gt;
+        &lt;div id=&apos;app&apos;&gt;&lt;/div&gt;
+
+        &lt;!-- Global notification modal mount node --&gt;
+        &lt;div id=&apos;notification-modal&apos;&gt;&lt;/div&gt;
+
+		&lt;div style=&apos;display:none&apos;&gt;
+			&lt;script type=&quot;application/javascript&quot; src=&apos;scripts/public/lib/login_init.js&apos;&gt;&lt;/script&gt;
+		&lt;/div&gt;
+        &lt;script type=&quot;application/javascript&quot; src=&apos;scripts/login_app.js&apos;&gt;&lt;/script&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+    <cookies class="java.lang.String">dglssnid=A~7BA49FE018D1F177EF48D5B00EFF72B3</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>https://mac-hatest.sap-supp.projects.epam.com/mac/spa/login.html</java.net.URL>
+  </httpSample>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html class=&apos;public-html&apos;&gt;
+&lt;!--@login_page, session expiration mark - do not remove!--&gt;
+    &lt;head&gt;
+        &lt;meta charset=&apos;utf-8&apos;&gt;
+        &lt;title&gt;Digital Library&lt;/title&gt;
+        &lt;meta name=&apos;description&apos; content=&apos;&apos;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+        &lt;meta property=&quot;fb:app_id&quot; content=&quot;979362175445128&quot; /&gt;
+
+        &lt;meta http-equiv=&quot;cache-control&quot; content=&quot;max-age=0&quot; /&gt;
+        &lt;meta http-equiv=&quot;cache-control&quot; content=&quot;no-cache&quot; /&gt;
+        &lt;meta http-equiv=&quot;expires&quot; content=&quot;0&quot; /&gt;
+        &lt;meta http-equiv=&quot;expires&quot; content=&quot;Tue, 01 Jan 1980 1:00:00 GMT&quot; /&gt;
+        &lt;meta http-equiv=&quot;pragma&quot; content=&quot;no-cache&quot; /&gt;
+
+        &lt;!-- Place favicon.ico and apple-touch-icon.png in the root directory --&gt;
+        &lt;!--  TODO: add as font-face in sass  --&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css&quot;&gt;
+        &lt;link rel=&apos;stylesheet&apos; href=&apos;styles/main.css&apos;&gt;
+        &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://dam.sap.com/mac/favicon.ico?v=3&quot; /&gt;
+
+        &lt;script type=&quot;application/javascript&quot; src=&quot;scripts/public/lib/dynamic-props.js&quot;&gt;&lt;/script&gt;
+        &lt;script type=&quot;application/javascript&quot; src=&quot;scripts/public/lib/jquery-2.1.4.min.js&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;!--[if lt IE 10]&gt;
+        &lt;p class=&apos;browsehappy&apos;&gt;You are using an &lt;strong&gt;outdated&lt;/strong&gt; browser. Please upgrade your browser to improve your experience.&lt;/p&gt;
+        &lt;![endif]--&gt;
+
+
+        &lt;!-- Entry point for React --&gt;
+        &lt;div id=&apos;app&apos;&gt;&lt;/div&gt;
+
+        &lt;!-- Global notification modal mount node --&gt;
+        &lt;div id=&apos;notification-modal&apos;&gt;&lt;/div&gt;
+
+		&lt;div style=&apos;display:none&apos;&gt;
+			&lt;script type=&quot;application/javascript&quot; src=&apos;scripts/public/lib/login_init.js&apos;&gt;&lt;/script&gt;
+		&lt;/div&gt;
+        &lt;script type=&quot;application/javascript&quot; src=&apos;scripts/login_app.js&apos;&gt;&lt;/script&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <cookies class="java.lang.String">dglssnid=A~A98E4B8EBECF30AB37A6A22BB2CE4462</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://mac-hatest.sap-supp.projects.epam.com/mac/spa/login.html</redirectLocation>
+  <java.net.URL>https://mac-hatest.sap-supp.projects.epam.com/mac/spa/login.html</java.net.URL>
+</httpSample>
+
+</testResults>
