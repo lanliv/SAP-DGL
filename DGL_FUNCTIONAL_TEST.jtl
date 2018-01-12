@@ -1,4 +1,4 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount,Hostname,IdleTime,Connect
+timestamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount,Hostname,IdleTime,Connect
 1515771846583,6151,LOGIN,200,OK,FUNCTIONAL TEST 1-1,text,true,,1135,1069,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/auth/isLoginSuccess.htm,6071,1,0,ECSD00100EE9,0,1153
 1515771852907,38,/mac/rest/security/global/privileges.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,1374,543,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/privileges.htm,38,1,0,ECSD00100EE9,0,0
 1515771853051,15,/mac/rest/security/global/myFeatures.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,2563,543,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/myFeatures.htm,14,1,0,ECSD00100EE9,0,0
