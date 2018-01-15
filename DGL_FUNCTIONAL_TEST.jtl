@@ -1,4 +1,4 @@
 timestamp,elapsed,responseCode,success,URL
-1515771846583,6151,200,OK,https://mac-hatest.sap-supp.projects.epam.com/mac/auth/isLoginSuccess.htm
-1515771852907,38,200,OK,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/privileges.htm
-1515771853051,15,500,KO,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/myFeatures.htm
+1515771846583,6130,200,OK,isLoginSuccess.htm
+1515771852907,98,200,OK,privileges.htm
+1515771853051,95,500,KO,myFeatures.htm
