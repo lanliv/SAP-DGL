@@ -1,4 +1,3 @@
-timestamp,elapsed,responseCode,success,URL
 1515771846583,5130,200,OK,isLoginSuccess.htm
 1515771852907,198,200,OK,privileges.htm
 1515771853051,195,500,KO,myFeatures.htm
