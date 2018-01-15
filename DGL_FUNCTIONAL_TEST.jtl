@@ -1,30 +1,4 @@
-timestamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount,Hostname,IdleTime,Connect
-1515771846583,6151,LOGIN,200,OK,FUNCTIONAL TEST 1-1,text,true,,1135,1069,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/auth/isLoginSuccess.htm,6071,1,0,ECSD00100EE9,0,1153
-1515771852907,38,/mac/rest/security/global/privileges.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,1374,543,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/privileges.htm,38,1,0,ECSD00100EE9,0,0
-1515771853051,15,/mac/rest/security/global/myFeatures.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,2563,543,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/myFeatures.htm,14,1,0,ECSD00100EE9,0,0
-1515771853174,15,/mac/rest/security/global/myAccount.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,1145,542,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/myAccount.htm,15,1,0,ECSD00100EE9,0,0
-1515771853294,15,/mac/rest/security/global/myGroups.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,1655,541,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/myGroups.htm,14,1,0,ECSD00100EE9,0,0
-1515771853421,628,/mac/rest/preferences/load.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,68831,533,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/preferences/load.htm,584,1,0,ECSD00100EE9,0,0
-1515771854163,23,/mac/rest/domain/load/fields.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,34818,576,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/domain/load/fields.htm,21,1,0,ECSD00100EE9,0,0
-1515771854295,696,/mac/rest/domain/load/values.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,1685469,576,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/domain/load/values.htm,202,1,0,ECSD00100EE9,0,0
-1515771855291,206,/mac/rest/domain/load/mapping.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,17441,577,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/domain/load/mapping.htm,205,1,0,ECSD00100EE9,0,17
-1515771855606,251,/mac/rest/domain/load/profiles.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,1063167,578,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/domain/load/profiles.htm,38,1,0,ECSD00100EE9,0,0
-1515771855963,12,/mac/rest/user/options/load.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,879,575,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/user/options/load.htm,12,1,0,ECSD00100EE9,0,0
-1515771856077,14,/mac/rest/security/global/rolesMap.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,1161,540,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/rolesMap.htm,13,1,0,ECSD00100EE9,0,0
-1515771856197,72,/mac/rest/security/global/assignablePolicies.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,19629,550,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/assignablePolicies.htm,71,1,0,ECSD00100EE9,0,0
-1515771856378,115,/mac/rest/security/global/authorizedGroups.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,7358,590,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/authorizedGroups.htm,114,1,0,ECSD00100EE9,0,0
-1515771856600,59,/mac/rest/jam/tree.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,1150,524,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/jam/tree.htm,59,1,0,ECSD00100EE9,0,0
-1515771856764,37,/mac/rest/folders/events/tree.htm,200,OK,FUNCTIONAL TEST 1-1,text,false,"Test failed: text expected to contain /[{""key"":""/",783,535,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/folders/events/tree.htm,36,1,1,ECSD00100EE9,0,0
-1515771856913,839,/mac/rest/notifications/latest.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,858,580,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/notifications/latest.htm,838,1,0,ECSD00100EE9,0,0
-1515771857854,46,/mac/rest/public/gp/system-message/load.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,2744,587,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/public/gp/system-message/load.htm,45,1,0,ECSD00100EE9,0,20
-1515771858012,166,/mac/rest/dashboard/subscriptions.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,15116,583,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/dashboard/subscriptions.htm,165,1,0,ECSD00100EE9,0,0
-1515771858279,448,/mac/rest/dashboard/searches.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,65891,578,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/dashboard/searches.htm,445,1,0,ECSD00100EE9,0,0
-1515771858834,25,/mac/rest/dashboard/approvals.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,783,579,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/dashboard/approvals.htm,25,1,0,ECSD00100EE9,0,0
-1515771858971,1211,/mac/rest/dashboard/expiring.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,4284,578,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/dashboard/expiring.htm,1211,1,0,ECSD00100EE9,0,0
-1515771860294,1269,/mac/rest/sd/featured.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,15099,543,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/sd/featured.htm?size=5&page=1,1269,1,0,ECSD00100EE9,0,25
-1515771861666,4250,/mac/rest/dashboard/top/assets.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,15931,544,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/dashboard/top/assets.htm?size=5,4249,1,0,ECSD00100EE9,0,0
-1515771866020,3069,/mac/rest/sd/recent.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,15337,533,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/sd/recent.htm?size=5,3068,1,0,ECSD00100EE9,0,21
-1515771869190,874,/mac/rest/jam/dashboardFolders.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,2160,544,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/jam/dashboardFolders.htm?size=5,874,1,0,ECSD00100EE9,0,19
-1515771870171,310,/mac/rest/dashboard/top/assets/jam.htm,200,OK,FUNCTIONAL TEST 1-1,text,true,,783,548,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/dashboard/top/assets/jam.htm?size=5,310,1,0,ECSD00100EE9,0,0
-1515771852802,14703,Open Dashboard,,"Number of samples in transaction : 26, number of failing samples : 1",FUNCTIONAL TEST 1-1,,false,,3046409,14520,1,1,null,13935,1,1,ECSD00100EE9,2977,102
-1515771870587,55,LOGOUT,200,OK,FUNCTIONAL TEST 1-1,text,true,,3528,1060,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/spa/login.html,38,1,0,ECSD00100EE9,0,0
+timestamp,elapsed,responseCode,success,URL
+1515771846583,6151,200,OK,https://mac-hatest.sap-supp.projects.epam.com/mac/auth/isLoginSuccess.htm
+1515771852907,38,200,OK,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/privileges.htm
+1515771853051,15,500,KO,https://mac-hatest.sap-supp.projects.epam.com/mac/rest/security/global/myFeatures.htm
