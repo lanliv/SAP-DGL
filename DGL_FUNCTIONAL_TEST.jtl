@@ -1,3 +1,3 @@
-1515771846583,5130,200,labe1
-
-
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount,Connect
+1516017883435,950,LOGIN,200,OK,FUNCTIONAL TEST 1-1,text,false,"Test failed: text expected to contain /{""authenticated"":true}/",567,549,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/login?rdrp=%2Fauth%2FisLoginSuccess.htm,949,1,1,79
+1516017884485,29,LOGOUT,200,OK,FUNCTIONAL TEST 1-1,text,true,,3774,1007,1,1,https://mac-hatest.sap-supp.projects.epam.com/mac/spa/login.html,15,1,0,0
