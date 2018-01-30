@@ -1,0 +1,21 @@
+POST https://accounts.sap.com/saml2/idp/sso/accounts.sap.com
+
+POST data:
+utf8=%E2%9C%93&authenticity_token=LdmP8eQTG9l64BFBHPYI85cx1uE42BL7xDtA2rt7IWIIFQDHN6xpG6hRgM1xWmCTLhWDmvQ6696T90eSbpqilA%3D%3D&xsrfProtection=dFkS77%2B90bJn77%2B977%2B9Ne%2B%2Fve%2B%2FvUE%2FP11EfO%2B%2FvVcCU%2B%2B%2FvT7vv73vv704NNSI77%2B977%2B9OjE0Nzk0NTkxMzUzMzk%3D&method=GET&idpSSOEndpoint=https%3A%2F%2Faccounts.sap.com%2Fsaml2%2Fidp%2Fsso%2Faccounts.sap.com&SAMLRequest=fZHNbsIwEITvfQrL9%2Fw4lEIsEkSLUJGoGpHQQ2%2FGccAosVOvA338BgItVSuOq535djUzGn9WJdoLA1KrCBPXx0gornOpNhFeZTNniMfx3QhYVQY1nTR2q5bioxFg0QRAGNv6nrSCphImFWYvuVgtFxHeWlsD9bzD4eACq9eGqdxqXYLLdeUdcV6avmI0bUlSMXs6fzExznWjLByd3%2FrAk3ntAeg%2Fa4xm2nBxei7CBStBYDSfRpj1wzBYhztWED8neS9ku3BQbIp7OejtSKuBhAHIvfhxATRirsAyZSMc%2BOTBIcQhw8wf0n5ASd8d%2BL13jBKjrea6fJSqi6oximoGEqhilQBqOU0nLwsauD5ddyKgz1mWOMlrmmH0dok8OEbelqCAdiHfZtXnwzjuOqGnj8014TaAXVrD8b%2FdjLxrbnwef1cffwE%3D&Signature=sc5zLPtWW5bDZPXhfOADvfMVuc6qzGlRjLJ2aJbpQFrK5hgQWyeRGvDEXHX0a47dBUHmmEgBaDdHe6%2BNj4BtaFHF3LVFslhLsSSKPIQCv2qUFIUn00uWjWYZH071m4pGepBngUMLZ50gdU0MiHMqCgzT942dd1qc9eeCqPwtTxBYhDTsY1vqluCm%2Bn1NxJ3FUXD0jBsmvyObb8FkhZYflUeMsEHBOuSeUekOC0%2Fecqj1fbTdFUuIUqusAsivZERr8fGHpDza2XT%2B3Aijq1WDkhm3Xwzw8sUgk8C%2FVZjsy9ZTeMBJlYRk0TbrpUXfE06PQR86eL6BfU1wj3gN2GmZcw%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2000%2F09%2Fxmldsig%23rsa-sha1&targetUrl=https%3A%2F%2Fwww.sapbrandtools.com%2Fsaml%2Flogin%3FentityID%3Dnaming.sapbrandtools.com%26disco%3Dtrue&sourceUrl=https%3A%2F%2Fwww.sapbrandtools.com%2F&org=&spId=568270bae4b06021d63813af&spName=www.sapbrandtools.com&mobileSSOToken=&j_username=C5234475&j_password=Initial5
+
+Cookie Data:
+ids=rd3o00000000000000000000ffffac12213fo443; targetUrl=https://www.sapbrandtools.com/saml/login?entityID=naming.sapbrandtools.com&disco=true; JSESSIONID=9AFC6D9EBB92E76BC200C06134E122EA6292AF72DDB8899B5A579E24BB5EE8FA; XSRF_COOKIE=77+9Ge+/vVcR77+977+977+9ZCfvv71P77+9cVHvv71m77+9Au+/ve+/vTfvv71t77+977+9Mu+/vXhx77+977+9OjE0Nzk0NTkzMTkyMTE; idsr=rd3o00000000000000000000ffffac12230eo443
+
+Request Headers:
+Connection: keep-alive
+Referer: https://accounts.sap.com/saml2/idp/sso/accounts.sap.com?SAMLRequest=fZHNbsIwEITvfQrL9%2Fw4lEIsEkSLUJGoGpHQQ2%2FGccAosVOvA338BgItVSuOq535djUzGn9WJdoLA1KrCBPXx0gornOpNhFeZTNniMfx3QhYVQY1nTR2q5bioxFg0QRAGNv6nrSCphImFWYvuVgtFxHeWlsD9bzD4eACq9eGqdxqXYLLdeUdcV6avmI0bUlSMXs6fzExznWjLByd3%2FrAk3ntAeg%2Fa4xm2nBxei7CBStBYDSfRpj1wzBYhztWED8neS9ku3BQbIp7OejtSKuBhAHIvfhxATRirsAyZSMc%2BOTBIcQhw8wf0n5ASd8d%2BL13jBKjrea6fJSqi6oximoGEqhilQBqOU0nLwsauD5ddyKgz1mWOMlrmmH0dok8OEbelqCAdiHfZtXnwzjuOqGnj8014TaAXVrD8b%2FdjLxrbnwef1cffwE%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2000%2F09%2Fxmldsig%23rsa-sha1&Signature=sc5zLPtWW5bDZPXhfOADvfMVuc6qzGlRjLJ2aJbpQFrK5hgQWyeRGvDEXHX0a47dBUHmmEgBaDdHe6%2BNj4BtaFHF3LVFslhLsSSKPIQCv2qUFIUn00uWjWYZH071m4pGepBngUMLZ50gdU0MiHMqCgzT942dd1qc9eeCqPwtTxBYhDTsY1vqluCm%2Bn1NxJ3FUXD0jBsmvyObb8FkhZYflUeMsEHBOuSeUekOC0%2Fecqj1fbTdFUuIUqusAsivZERr8fGHpDza2XT%2B3Aijq1WDkhm3Xwzw8sUgk8C%2FVZjsy9ZTeMBJlYRk0TbrpUXfE06PQR86eL6BfU1wj3gN2GmZcw%3D%3D
+Accept-Language: en-US,en;q=0.8,ru;q=0.6
+Origin: https://accounts.sap.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Content-Length: 1543
+Host: accounts.sap.com
